@@ -6,9 +6,8 @@ end
 
 def prompt_user
   puts "What would you like to do?"
-  puts num1 = "1.) Eat a hamburger."
-  puts num2 = "2.) Eat a ham."
-  num2
+  puts "1.) Eat a hamburger."
+  puts "2.) Eat a ham."
   end
 
 def selection(num)
@@ -17,6 +16,7 @@ def selection(num)
   elsif num2 = 2
      "HAM HAM HAM IN MY TUMMY"
   end
+  num2
 end
 
 def runner
